@@ -27,3 +27,30 @@ for(index,y) in arr.enumerate(){
 }
 print(arr)
 
+var ar = [9,6,1,6]
+
+for(index,value) in ar.enumerate() {
+    ar[index] = ar[index]/2
+}
+
+print(ar)
+
+
+var w = 1
+while w < 5  {
+    print(w++)
+}
+var e = 2
+while e <= 20 {
+    print(e)
+    e =  e+2
+}
+
+var ar2 = [1,2,3,4,5,6]
+
+var index = 0
+
+while index < ar2.count {
+    ar2[index] = ar2[index] - 1
+    index++
+}
