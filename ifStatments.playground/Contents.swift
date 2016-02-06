@@ -34,5 +34,8 @@ if num%2 == 0 {
     print("odd number")
 }
 
+var randNo = arc4random_uniform(9)
+
+
 
 
